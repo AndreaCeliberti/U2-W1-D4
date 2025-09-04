@@ -1,0 +1,93 @@
+body {
+  font-family: "Indie Flower";
+  text-align: center;
+  font-size: 25px;
+}
+.blackboard {
+  width: 1536px;
+  height: 624px;
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.task1,
+.task5,
+.task7 {
+  background-color: #fbfcca;
+  width: 300px;
+  height: 200px;
+  box-shadow: black 5px 5px 25px;
+  background: linear-gradient(#fbfcca, #fbfcca, rgb(154, 154, 154));
+  transform: rotate(355deg);
+  position: relative;
+  transition: all 1s;
+}
+.task1:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task5:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task7:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+
+.task2,
+.task4,
+.task8 {
+  background-color: #cafccb;
+  width: 300px;
+  height: 200px;
+  box-shadow: black 5px 5px 25px;
+  background: linear-gradient(#cafccb, #cafccb, rgb(154, 154, 154));
+  transform: rotate(13deg);
+  position: relative;
+  transition: all 1s;
+}
+.task2:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task4:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task8:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task3,
+.task6 {
+  background-color: #c2c3ec;
+  width: 300px;
+  height: 200px;
+  box-shadow: black 5px 5px 25px;
+  background: linear-gradient(#c2c3ec, #c2c3ec, rgb(154, 154, 154));
+  transform: rotate(340deg);
+  position: relative;
+  transition: all 1s;
+}
+.task3:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
+.task6:hover {
+  transform: rotate(0deg);
+  transform: scale(1.4);
+  z-index: 100;
+}
